@@ -1,0 +1,14 @@
+{
+    "name": "rabbit-rpc",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./lib/rpc.js",
+    "scripts": {
+        "start": "node app"
+    },
+    "dependencies": {
+        "amqp": "0.1.x",
+        "winston": "0.6.x",
+        "walkdir": "*"
+    }
+}
